@@ -19,7 +19,7 @@ public class Persona {
        // System.out.println("SE ESTA EJECUTANDO EL CONSTRUCTOR POR DEFECTO, PORQUE SI!!!!!!!");
     }
     
-    
+    //constructor de la clase
     Persona(String nombrePers, String apellidosPers, int edadPers){
         this();
         this.nombre = nombrePers;
@@ -94,7 +94,7 @@ public class Persona {
     public int diferenciaEdad(Persona p) {
         return this.edad - p.edad;          //p2.edad - p3.edad  ////// p3.edad - p2.edad
     }
-
+ //Imprime los datos
     public void imprime() {
         System.out.println("DNI: " + this.dni);
         System.out.println("Nombre: " + this.nombre);
